@@ -13,3 +13,29 @@ html {
 .header {
   background-color: #ddd;
 }
+
+.playgrounds {
+  background-color: #fff;
+  border-radius: 5px;
+  min-height: 4em;
+}
+
+.nearest-playgrounds {
+  background-color: #efefef;
+}
+
+table {
+  min-width: 725px;
+}
+
+input {
+  min-width: 375px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  table {
+    min-width: 900px;
+  }
+
+}
